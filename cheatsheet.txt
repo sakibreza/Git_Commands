@@ -2,87 +2,88 @@
 ## Sakib Reza
 ## 1507007
 Format: [command line]
-		[description of the command]
-		
+        [description of the command]
+        
 1. git --version  
-	[used for checking the git version]
+    [used for checking the git version]
 2. git config --global user.name ""
-	[configuring the new username on the system]
+    [configuring the new username on the system]
 3. git config --global user.email ""
-	[configuring the new username on the system]
-4. git config --list 
-	[it shows the configuration details]
+    [configuring the new username on the system]
+4. git config --list
+    [it shows the configuration details]
 5. git --help
-	[it shows significant git commands & other helping commands with documentation]
-6. pwd 
-	[takes pointer to the current directory]
-7. cd .. 
-	[go to the previous directory]
-8. cd ~ 
-	[go to the home]
+    [it shows significant git commands & other helping commands with documentation]
+6. pwd
+    [takes pointer to the current directory]
+7. cd ..
+    [go to the previous directory]
+8. cd ~
+    [go to the home]
 9. cd folder_name  
-	[go to a folder from current directory]
-10. ls 
-	[list of the files in the directory/folder]
+    [go to a folder from current directory]
+10. ls
+    [list of the files in the directory/folder]
 11. git init
-	[making a folder git project by initializing git into a folder]
+    [making a folder git project by initializing git into a folder]
 12. ls -la
-	[shows hidden files related to git]
-13. clear 
-	[clear the git bash screen]
+    [shows hidden files related to git]
+13. clear
+    [clear the git bash screen]
 14. git add .
-	[add all the files to the staging area]
+    [add all the files to the staging area]
 15. git add file_name
-	[add a pirticular file to the staging area]
+    [add a particular file to the staging area]
 16. git commit -m ""
-	[commit saves the current state & updates it to the repository ]
+    [commit saves the current state & updates it to the repository ]
 17. git rm file_name
-	[removing a file]
+    [removing a file]
 18. git log
-	[shows the commit history]
+    [shows the commit history]
 19. git log --author=""
-	[shows the commit history of a particular user]
+    [shows the commit history of a particular user]
 20. git status
-	[shows the status of the git project]
+    [shows the status of the git project]
 21. git diff
-	[shows the differences of the project with the last committed state]
+    [shows the differences of the project with the last committed state]
 22. git diff --staged
-	[shows the differences of the project with the last added state to the staging area]
-23. git add renamed_file 
-      git rm prevnamed_file 
-	[renaming a file name]
+    [shows the differences of the project with the last added state to the staging area]
+23. git add renamed_file
+      git rm prevnamed_file
+    [renaming a file name]
 24. git mv prevnamed_file renamed_file
-[renaming a file name by moving] 
+[renaming a file name by moving]
 25. git mv file1 directory/file2
-	[move a file to one directory/floder to another]
+    [move a file to one directory/folder to another]
 26. git commit -am ""
-	[taking all the files & folders to the repository directly]
+    [taking all the files & folders to the repository directly]
 27. git checkout -- file_name
-	[after doing any change in working area,we can take it back to the version of the file which is on the repository]
+    [after doing any change in working area,we can take it back to the version of the file which is on the repository]
 28. git reset HEAD file_name
-	[unstaging a file from staging area]
+    [unstaging a file from staging area]
 29. git checkout 01e7dba -- fie_name
-	[retriving a file from the anyone of the past commit]
+    [retrieving a file from the anyone of the past commit]
 30. git remote add shortcut_name orginal_url
-	[setting up remote]
-31. git remote 
-	[shows all the remotes]
+    [setting up remote]
+31. git remote
+    [shows all the remotes]
 32. git push -u remote_name master
-	[push all the files to remote remote repository]
-33. git branch iss53 
-	[creating a new branch "iss53"]
+    [push all the files to remote remote repository]
+33. git branch iss53
+    [creating a new branch "iss53"]
 34. git checkout iss53
-	[switching to the branch "iss53"]
+    [switching to the branch "iss53"]
 35. git branch -d iss53
-	[deleting the branch "iss53"]
+    [deleting the branch "iss53"]
 36. git checkout -b iss53
-	[creating a new branch "iss53" & switching to it]
+    [creating a new branch "iss53" & switching to it]
 37. git merge iss53
-	[merging the branch "iss53" with the current branch]
+    [merging the branch "iss53" with the current branch]
 38. git clone  https://github.com/libgit2/libgit2
-	[creating a directory "libgit2" and puts all the files from the url there]
+    [creating a directory "libgit2" and puts all the files from the url there]
 39. git clone  https://github.com/libgit2/libgit2 libgit2
-	[same as 38,but here targeted directory is 'libgits']
-40. git fetch origin 
-	[copies all branches from Head & stores them to the origin]
-41. git pull 
+    [same as 38,but here targeted directory is 'libgits']
+40. git fetch origin
+    [copies all branches from Head & stores them to the origin]
+41. git pull origin 
+    [works like fetch & merge together]
