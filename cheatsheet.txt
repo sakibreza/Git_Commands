@@ -1,5 +1,11 @@
+## Git Command lines
+## Sakib Reza
+## 1507007
+Format: [command line]
+		[description of the command]
+		
 1. git --version  
-[used for checking the git version]
+	[used for checking the git version]
 2. git config --global user.name ""
 	[configuring the new username on the system]
 3. git config --global user.email ""
@@ -52,3 +58,31 @@
 26. git commit -am ""
 	[taking all the files & folders to the repository directly]
 27. git checkout -- file_name
+	[after doing any change in working area,we can take it back to the version of the file which is on the repository]
+28. git reset HEAD file_name
+	[unstaging a file from staging area]
+29. git checkout 01e7dba -- fie_name
+	[retriving a file from the anyone of the past commit]
+30. git remote add shortcut_name orginal_url
+	[setting up remote]
+31. git remote 
+	[shows all the remotes]
+32. git push -u remote_name master
+	[push all the files to remote remote repository]
+33. git branch iss53 
+	[creating a new branch "iss53"]
+34. git checkout iss53
+	[switching to the branch "iss53"]
+35. git branch -d iss53
+	[deleting the branch "iss53"]
+36. git checkout -b iss53
+	[creating a new branch "iss53" & switching to it]
+37. git merge iss53
+	[merging the branch "iss53" with the current branch]
+38. git clone  https://github.com/libgit2/libgit2
+	[creating a directory "libgit2" and puts all the files from the url there]
+39. git clone  https://github.com/libgit2/libgit2 libgit2
+	[same as 38,but here targeted directory is 'libgits']
+40. git fetch origin 
+	[copies all branches from Head & stores them to the origin]
+41. git pull 
